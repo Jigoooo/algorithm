@@ -8,7 +8,7 @@ const count = Number(input[1]);
 let sum = 0;
 
 for (let i = 2; i <= count + 1; i++) {
-    const [a, b] = input[i].split(' ')
+    const [a, b] = input[i].split(' ');
     sum += Number(a) * Number(b);
 }
 
